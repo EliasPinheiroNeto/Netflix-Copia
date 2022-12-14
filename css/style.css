@@ -12,7 +12,12 @@ body {
     margin: 0;
     padding: 0;
 
-    background-color: black;
+    width: 100vw;
+    min-height: 100vh;
+
+    background-image: url(../source/Netflix_login_background.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -61,12 +66,23 @@ nav {
     height: 35px;
 
     border-width: 1px;
-    border-radius: 1px;
+    border-radius: 3px;
     border-color: white;
+
+    outline: none;
 
     font-family: Netflix;
     font-size: 15px;
     color: white;
+    text-align: center;
 
     background-color: transparent;
+
+    appearance: none;
+}
+
+.nav-option-language {
+    background-color: white;
+
+    color: black;
 }
