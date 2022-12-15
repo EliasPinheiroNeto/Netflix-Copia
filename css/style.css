@@ -1,24 +1,40 @@
+/* Setando uma fonte com base em arquivos do projeto */
 @font-face {
+    /* Nome da fonte */
     font-family: Netflix;
 
     src: url(../source/font/NetflixSans-Regular.otf);
     src: url(../source/font/NetflixSans-Regular.woff2);
-
-    /* src: url(../source/font/NetflixSans-Bold.otf);
-    src: url(../source/font/NetflixSans-Bold.woff2); */
 }
+
+/* ============================================== */
 
 body {
     margin: 0;
     padding: 0;
 
+    /* width: 100vw;
+    min-height: 100vh; */
+
+    /* background-image: url(../source/Netflix_login_background.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat; */
+}
+
+/* ============================================== */
+/* Tela inicial */
+
+.backgorund {
     width: 100vw;
-    min-height: 100vh;
 
     background-image: url(../source/Netflix_login_background.jpg);
     background-position: 0 0;
     background-repeat: no-repeat;
+
+    box-shadow: inset 100px 20px 5000px black, inset -100px -20px 5000px black;
 }
+
+
 
 nav {
     width: 100vw;
@@ -31,7 +47,6 @@ nav {
     padding: 0 4vw;
 
     box-sizing: border-box;
-    border: solid 1px black;
 }
 
 .nav-image {
@@ -44,7 +59,6 @@ nav {
     column-gap: 30px;
 
     box-sizing: border-box;
-    border: solid 1px black;
 }
 
 #nav-btn-Sign {
@@ -85,4 +99,19 @@ nav {
     background-color: white;
 
     color: black;
+}
+
+
+
+.initial-center {
+    height: 80vh;
+}
+
+
+
+.divisor {
+    width: 100vw;
+    height: 10px;
+
+    background-color: rgb(54, 54, 54);
 }
