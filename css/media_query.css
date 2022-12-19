@@ -1,3 +1,9 @@
+@media screen and (max-width: 1000px) {
+    .initial-background {
+        background-size: auto 100%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .initial-background {
         background-size: auto 100%;
@@ -52,7 +58,7 @@
     }
 
     .email-area input[type="text"] {
-        width: 450px;
+        width: 90%;
         height: 40px;
     }
 
@@ -64,10 +70,29 @@
     }
 
     /* #endregion */
-}
+    /* #region Card */
+    .card {
+        padding: 50px 25px;
 
-@media screen and (max-width: 1000px) {
-    .initial-background {
-        background-size: auto 100%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
     }
+
+    .card-text h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .card-text h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .card-img {
+        width: 100%;
+    }
+
+    /* #endregion */
+
 }
