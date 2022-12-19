@@ -242,6 +242,41 @@ h2 {
     /* border: solid 1px red; */
 }
 
+
+
+.faq-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.faq-question {
+    width: 60%;
+
+    margin: 5px auto;
+    padding: 1% 2%;
+
+    display: block;
+    position: relative;
+
+    background-color: rgb(66, 66, 66);
+
+    color: white;
+    text-align: left;
+    font-family: Netflix;
+    font-size: 26px;
+}
+
+.faq-question::after {
+    content: "+";
+
+    position: absolute;
+    right: 5%;
+
+    line-height: 30px;
+    font-size: 50px;
+}
+
+
 /* Linha cinza que divide as partes */
 .divisor {
     width: 100%;
