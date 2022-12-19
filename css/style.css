@@ -11,6 +11,8 @@
 * {
     padding: 0;
     margin: 0;
+
+    box-sizing: border-box;
 }
 
 
@@ -225,19 +227,19 @@ h2 {
     justify-content: space-evenly;
     align-items: center;
 
-    border: solid 1px green;
+    /* border: solid 1px green; */
 }
 
 .card-text {
     width: 40%;
 
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 .card-img {
     width: 40%;
 
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 /* Linha cinza que divide as partes */
