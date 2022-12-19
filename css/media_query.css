@@ -1,0 +1,73 @@
+@media screen and (max-width: 600px) {
+    .initial-background {
+        background-size: auto 100%;
+    }
+
+    /* #region Nav area */
+    .nav-image {
+        width: 80px;
+        height: auto;
+    }
+
+    .nav-div-buttons {
+        column-gap: 15px;
+    }
+
+    #nav-btn-Language {
+        width: 100px;
+        height: 30px;
+    }
+
+    #nav-btn-Sign {
+        width: 70px;
+        height: 30px;
+    }
+
+    /* #endregion */
+    /* #region Center area */
+    .initial-center-area {
+        width: 90%;
+        padding: 40px 0 40px 0;
+    }
+
+    .initial-center-area h1 {
+        font-size: 28px;
+    }
+
+    .initial-center-area h2 {
+        font-size: 18px;
+    }
+
+    /* #endregion */
+    /* #region Email area */
+    .email-label {
+        font-size: 18px;
+    }
+
+    .email-area {
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        row-gap: 10px;
+    }
+
+    .email-area input[type="text"] {
+        width: 450px;
+        height: 40px;
+    }
+
+    .email-area input[type="button"] {
+        width: 100px;
+        height: 40px;
+
+        font-size: 16px;
+    }
+
+    /* #endregion */
+}
+
+@media screen and (max-width: 1000px) {
+    .initial-background {
+        background-size: auto 100%;
+    }
+}
