@@ -35,6 +35,9 @@
 
 @media screen and (max-width: 1000px) {
     .initial-background {
+        height: auto;
+        max-height: none;
+
         background-size: 150% auto;
 
         box-shadow: inset 100vw 0 rgba(0, 0, 0, 0.3), inset 0 150px 200px rgba(0, 0, 0, 0.9), inset 0 -150px 200px rgba(0, 0, 0, 0.9);
@@ -50,6 +53,7 @@
         background-size: 180% auto;
     }
 
+    /* #region Email area */
     .email-label {
         margin: 10px auto 10px auto;
 
@@ -76,6 +80,8 @@
 
         font-size: 16px;
     }
+
+    /* #endregion */
 }
 
 @media screen and (max-width: 800px) {
