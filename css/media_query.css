@@ -1,23 +1,55 @@
-@media screen and (max-width: 1000px) {
-    .initial-background {
-        background-size: auto 100%;
+@media screen and (min-width: 1400px) {
+    .initial-center-area h1 {
+        padding: 0 12%;
     }
 }
 
-@media screen and (max-width: 800px) {
-    .initial-center-area {
-        width: 80%;
+@media screen and (max-width: 1400px) {
+    .initial-background {
+        box-shadow: inset 100vw 0 rgba(0, 0, 0, 0.3), inset 0 150px 300px rgba(0, 0, 0, 0.9), inset 0 -150px 300px rgba(0, 0, 0, 0.9);
+    }
+
+    .initial-center-area h1 {
+        font-size: 50px;
     }
 
     .initial-center-area h2 {
-        font-size: 26px;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .initial-background {
+        background-size: 120% auto;
     }
 
-    .nav-image {
-        width: 100px;
+    .initial-center-area h1 {
+        padding: 0 100px;
     }
 
-    /* #region Email area */
+    .email-area input[type="text"] {
+        width: 450px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .initial-background {
+        background-size: 150% auto;
+
+        box-shadow: inset 100vw 0 rgba(0, 0, 0, 0.3), inset 0 150px 200px rgba(0, 0, 0, 0.9), inset 0 -150px 200px rgba(0, 0, 0, 0.9);
+    }
+
+    .faq-list-item {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .initial-background {
+        background-size: 180% auto;
+    }
+
     .email-label {
         margin: 10px auto 10px auto;
 
@@ -43,6 +75,38 @@
         height: 40px;
 
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .initial-background {
+        background-size: auto 100%;
+
+        box-shadow: inset 100vw 0 rgba(0, 0, 0, 0.3), inset 0 150px 200px rgba(0, 0, 0, 0.9), inset 0 -150px 200px rgba(0, 0, 0, 0.9);
+    }
+
+    .card-initial {
+        padding: 0 0 30px 0;
+    }
+
+    .initial-center-area {
+        width: 80%;
+    }
+
+    .initial-center-area h2 {
+        font-size: 26px;
+    }
+
+    .nav-image {
+        width: 100px;
+    }
+
+    /* #region Email area */
+    .email-label {
+        margin: 10px auto 10px auto;
+
+        max-width: 500px;
+        font-size: 23px;
     }
 
     /* #endregion */
@@ -96,7 +160,7 @@
 
 @media screen and (max-width: 600px) {
     .initial-background {
-        background-size: auto 100%;
+        box-shadow: inset 100vw 0 rgba(0, 0, 0, 0.2), inset 0 120px 100px rgba(0, 0, 0, 0.9), inset 0 -120px 100px rgba(0, 0, 0, 0.9);
     }
 
     /* #region Nav area */
@@ -127,6 +191,7 @@
     }
 
     .initial-center-area h1 {
+        padding: 0 50px;
         font-size: 28px;
     }
 
