@@ -7,6 +7,12 @@
     src: url(../source/font/NetflixSans-Regular.woff2);
 }
 
+@font-face {
+    font-family: Netflix-icons;
+
+    src: url(../source/font/nf-icon-v1-93.woff);
+}
+
 /* ============================================== */
 
 * {
@@ -241,7 +247,6 @@ nav {
 
 /* ============================================== */
 /* #region Ferguntas frequentes */
-
 .faq-card {
     flex-direction: column;
 }
@@ -299,6 +304,94 @@ nav {
 }
 
 /* #endregion */
+/* #region Footer */
+footer {
+    width: 100%;
+    max-width: 1200px;
+
+    padding: 70px calc(5vw + 45px);
+
+    color: #737373;
+
+    /* display: flex;
+    flex-direction: column; */
+}
+
+footer .number {
+    margin: 0 0 30px 0;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+
+footer ul li {
+    width: 25%;
+
+    margin-bottom: 12px;
+    padding: 0 12px 0 0;
+
+    font-size: 13px;
+}
+
+.language-select {
+    width: fit-content;
+    margin: 15px 0;
+
+    position: relative;
+}
+
+.language-select::before {
+    content: "\e896";
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    left: 15px;
+    top: 30%;
+
+    font-size: 16px;
+    font-family: Netflix-icons;
+    color: #737373;
+}
+
+.language-select::after {
+    content: "\e898";
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    right: -10px;
+    top: 40%;
+
+    font-size: 6px;
+    font-family: Netflix-icons;
+    color: #737373;
+}
+
+.language-select select {
+    width: 150px;
+    height: 50px;
+
+    padding: 12px 26px 12px 50px;
+
+    appearance: none;
+
+    background-color: transparent;
+    color: #737373;
+    font-size: 16px;
+}
+
+
+footer .signature {
+    font-size: 13px;
+}
+
+/* #endregion */
+
 /* Linha cinza que divide as partes */
 .divisor {
     width: 100%;

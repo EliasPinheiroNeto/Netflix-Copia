@@ -162,6 +162,9 @@
 
     /* #endregion */
 
+    footer ul li {
+        width: 33%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -255,4 +258,7 @@
 
     /* #endregion */
 
+    footer ul li {
+        width: 50%;
+    }
 }
