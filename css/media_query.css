@@ -258,6 +258,10 @@
 
     /* #endregion */
 
+    footer {
+        padding: 70px 30px;
+    }
+
     footer ul li {
         width: 50%;
     }
