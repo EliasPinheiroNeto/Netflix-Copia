@@ -107,8 +107,10 @@ nav {
 }
 
 #nav-btn-Language {
-    width: 110px;
+    width: 120px;
     height: 35px;
+
+    padding: 6px 22px;
 
     border-width: 1px;
     border-radius: 3px;
@@ -127,9 +129,28 @@ nav {
 }
 
 .nav-option-language {
-    background-color: grey;
-
     color: white;
+    text-align: left;
+
+    background-color: grey;
+}
+
+nav .language-select {
+    margin: 0;
+}
+
+nav .language-select::before {
+    top: 10px;
+    left: 8px;
+
+    font-size: 12px;
+}
+
+nav .language-select::after {
+    top: 14px;
+    right: 10px;
+
+    font-size: 6px;
 }
 
 /* #endregion */
@@ -346,33 +367,43 @@ footer ul li {
 
 .language-select::before {
     content: "\e896";
+
+    position: absolute;
+
+    font-family: Netflix-icons;
+}
+
+footer .language-select::before {
     width: 30px;
     height: 30px;
 
-    position: absolute;
     left: 15px;
     top: 30%;
 
     font-size: 16px;
-    font-family: Netflix-icons;
     color: #737373;
 }
 
 .language-select::after {
     content: "\e898";
+
+    position: absolute;
+
+    font-family: Netflix-icons;
+}
+
+footer .language-select::after {
     width: 30px;
     height: 30px;
 
-    position: absolute;
     right: -10px;
     top: 40%;
 
     font-size: 6px;
-    font-family: Netflix-icons;
     color: #737373;
 }
 
-.language-select select {
+footer .language-select select {
     width: 150px;
     height: 50px;
 
