@@ -324,6 +324,16 @@ nav .language-select::after {
     font-size: 40px;
 }
 
+.faq-answer {
+    display: none;
+    padding: 3% 2%;
+    margin-top: 1px;
+
+    font-size: 26px;
+
+    background-color: #303030;
+}
+
 /* #endregion */
 /* #region Footer */
 footer {
