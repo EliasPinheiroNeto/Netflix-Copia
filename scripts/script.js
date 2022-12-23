@@ -10,21 +10,19 @@ function showAnswer(element) {
 
 
     if (closed == "true") {
-        answer.style.display = "block"
+        answer.style.maxHeight = "1500px"
         closed = "false"
     } else {
-        answer.style.display = "none"
+        answer.style.maxHeight = "0"
         closed = "true"
     }
 
     allAnswers.forEach(alpha => {
         if (alpha.dataset.answerId != id) {
-            alpha.style.display = "none"
+            alpha.style.maxHeight = "0"
             ul.querySelector(`[data-question-id='${alpha.dataset.answerId}']`).dataset.answerClosed = "true"
         }
     })
-
-
 
     element.dataset.answerClosed = closed
 }
